@@ -1,2 +1,2 @@
-# PaperReview
-- 논문 리뷰를 해보자
+# ReadingPaper
+- 논문을 읽어보자
