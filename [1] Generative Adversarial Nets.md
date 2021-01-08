@@ -4,7 +4,7 @@
 
 # 0. Abstract
 
-* We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G
+We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G
 that captures the data distribution, and a discriminative model D that estimates
 the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This
 framework corresponds to a minimax two-player game. In the space of arbitrary
@@ -16,3 +16,5 @@ by multilayer perceptrons, the entire system can be trained with backpropagation
 There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate
 the potential of the framework through qualitative and quantitative evaluation of
 the generated samples.
+
+안녕하세요
