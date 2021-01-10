@@ -23,3 +23,5 @@ This framework admits many straightforward extensions:
 2. Learned approximate inference can be performed by training an auxiliary network to predict z given x. This is similar to the inference net trained by the wake-sleep algorithm [15] but with the advantage that the inference net may be trained for a fixed generator net after the generator net has finished training.
 학습된 approximate inference는 x가 주어진 z를 예측하기 위해 보조 네트워크를 훈련함으로써 수행될 수 있다. 이는 wake-sleep algorithm에 의해 훈련되는 inference net과 유사하지만, generator net가 훈련을 마친 후 fixed generator net에 대해 inference net가 훈련될 수 있다는 장점이 있다.
 3. One can approximately model all conditionals p(xS | x6S) where S is a subset of the indices of x by training a family of conditional models that share parameters. Essentially, one can use adversarial nets to implement a stochastic extension of the deterministic MP-DBM [11].
+
+???
