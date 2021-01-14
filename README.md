@@ -1,5 +1,7 @@
 # ReadingPaper
 
+논문을 읽어보자
+
 ## Generative Model (생성 모델)
 
   * Generative Adversarial Nets (NIPS 2014)
