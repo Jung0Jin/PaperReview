@@ -36,7 +36,9 @@ Generative Adversarial Networks (GAN): 생성자(generator)와 판별자(discrim
 
 -> 목적 함수(objective funtion)을 통해 생성자는 이미지 분포를 학습할 수 있다.
 
-![image-20210114160843531](C:\Users\TACTICS_1\AppData\Roaming\Typora\typora-user-images\image-20210114160843531.png)
+![캡처](https://user-images.githubusercontent.com/59161837/104556530-1fd9bd00-5683-11eb-9809-672867e2013f.PNG)
+
+
 
 ㅋㅋㅋㅋㅋ
 
