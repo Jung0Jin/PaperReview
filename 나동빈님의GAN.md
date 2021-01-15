@@ -129,3 +129,4 @@ C(G) = maxDV(G,D) = -log(4) 값(Global Optimum Point)을 얻을 수 있는 유�
 - Not memorized the training set: 학습 데이터를 단순히 암기한 것이 아니라 새로운 생성 이미지로 만든 것이다.
 - Competitive with the better generative models: 본 논문이 나오기 이전 시점까지의 다른 생성 모델들과 비교했을 때 충분히 좋은 성능이 나온다는 것을 보여주었다.
 - Images represent sharp: 오토인코더 계열의 다른 생성 네트워크와 비교했을 때 상대적으로 더 sharp한 이미지를 생성한다.
+
