@@ -130,4 +130,3 @@
 - (a)에서 discriminator는 image가 들어 왔을 때, real image인지 판별을 한다. 만약 real image면 CelebA label이 무엇인지도 판별한다. 만약 fake image면 label은 판별하지 않는다.
 - (b)에서 generator는 input image와 target domain label을 받아서 image를 생성한다.
 - (c)에서 generator는 output image와 original domain label을 받아서 Reconstructed image를 만든다.
-
