@@ -9,4 +9,4 @@
 
 
  * StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation (2018 CVPR)
-     * [나동빈님의 StarGAN](https://github.com/Jung0Jin/ReadingPaper/blob/main/%EB%82%98%EB%8F%99%EB%B9%88%EB%8B%98%EC%9D%98StarGAN) / [나동빈님의 code]() / [Paper]()
+     * [나동빈님의 StarGAN](https://github.com/Jung0Jin/ReadingPaper/blob/main/%EB%82%98%EB%8F%99%EB%B9%88%EB%8B%98%EC%9D%98StarGAN.md) / [나동빈님의 code]() / [Paper]()
