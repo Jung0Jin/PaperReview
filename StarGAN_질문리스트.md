@@ -50,7 +50,7 @@
 
 ![캡처8](https://user-images.githubusercontent.com/59161837/105568553-ad04cc00-5d7d-11eb-9a69-b757603ee9dd.PNG)
 
-- mask vector를 사용하는 이유: 이 이미지가 어떤 label을 가지고 있는지 network에 전달해주기 위해서
+- mask vector를 사용하는 이유: 이 이미지가 어떤 label을 가지고 있는지 network에 전달해주기 위해서 
   - 왜?: CelebA와 RaFD 데이터를 사용했는데, 각 데이터가 가지고 있는 label이 다르기 때문에, 각각의 이미지가 partial information of the labels 하다.
     - 따라서 두 domain은(사실 두 도메인이 아니라 두 데이터셋으로 표현하는 게 맞을 것 같다) 동시에 설정할 수 없다고 보인다. 
     - 동시에 설정하지말고 CelebA의 Black + Brown + Male에 해당하는 마스크 벡터를 통과시켜 생성된 이미지를 RaFD의 happy에 해당하는 마스크 벡터를 통과시키면 될 것 같다.
