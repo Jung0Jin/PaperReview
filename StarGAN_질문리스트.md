@@ -3,7 +3,7 @@
 ## 1. 논문에서 제시된 두 dataset는 각각을 domain이라고 할 수 있는가?
 
 ![캡처](https://user-images.githubusercontent.com/59161837/105567801-1550af00-5d78-11eb-92b9-b3ec5b856444.PNG)
-
+ 
 - Domain이란 무엇인가?: 이미지 변환이란 어떤 이미지를 특정한 특징을 가진 이미지로 변환하는 것을 말한다. 예를 들어 무표정인 사람의 모습을 웃는 모습으로 바꾼다거나 혹은 성별을 바꾸는 등 다양한 특징을 가지게 변환시키는 작업을 '이미지 변환', 변환할 때 적용하는 특징을 '도메인'이라고 부른다. 출처: https://medium.com/curg/stargan-%EB%8B%A8%EC%9D%BC-%EB%AA%A8%EB%8D%B8%EB%A1%9C-%EB%8B%A4%EC%A4%91-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%80%ED%99%98%EA%B8%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0-3b0fbdec121d
 - StarGAN 논문에서 해결하고자 한 문제와 기여는 다음과 같다.
   - 최근 연구에서 사용되는 도메인 - 변환 기법은 두 개 이상의 도메인을 학습할 때 Scalability와 Robustness가 부족하다.
