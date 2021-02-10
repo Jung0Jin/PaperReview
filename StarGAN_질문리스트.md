@@ -11,7 +11,7 @@
     - 따라서 dataset을 domain이라고 하기 보단, dataset는 2가지이고(CelebA, RaFD) domain은 각각 [Blond hair, Gender, Aged, Pale Skin], [Angry, Happy, Fearful]로 표현하는게 맞는 것으로 보인다. 출처: https://medium.com/curg/stargan-%EB%8B%A8%EC%9D%BC-%EB%AA%A8%EB%8D%B8%EB%A1%9C-%EB%8B%A4%EC%A4%91-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%80%ED%99%98%EA%B8%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0-3b0fbdec121d
 
 ## 2. G를 학습하는 과정에서, 만약 D가 G(x, c)를 fake라고 분류하면 c에 대한 학습을 할 수 없는 것 아닌가?
- 
+  
 ![캡처2](https://user-images.githubusercontent.com/59161837/105568057-f3582c00-5d79-11eb-8a57-99c232d70a7d.PNG)
 
 ![캡처3](https://user-images.githubusercontent.com/59161837/105568297-96f60c00-5d7b-11eb-8f81-91f11adace87.PNG)
