@@ -7,7 +7,7 @@
 - Domain이란 무엇인가?: 이미지 변환이란 어떤 이미지를 특정한 특징을 가진 이미지로 변환하는 것을 말한다. 예를 들어 무표정인 사람의 모습을 웃는 모습으로 바꾼다거나 혹은 성별을 바꾸는 등 다양한 특징을 가지게 변환시키는 작업을 '이미지 변환', 변환할 때 적용하는 특징을 '도메인'이라고 부른다. 출처: https://medium.com/curg/stargan-%EB%8B%A8%EC%9D%BC-%EB%AA%A8%EB%8D%B8%EB%A1%9C-%EB%8B%A4%EC%A4%91-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%80%ED%99%98%EA%B8%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0-3b0fbdec121d
 - StarGAN 논문에서 해결하고자 한 문제와 기여는 다음과 같다. 
   - 최근 연구에서 사용되는 도메인 - 변환 기법은 두 개 이상의 도메인을 학습할 때 Scalability와 Robustness가 부족하다.
-  - StarGAN은 하나의 통합된 모델을 사용해서 다중 - 도메인과 다양한 데이터셋을 하나의 네트워크에서 학습할 수 있게 해준다.
+  - StarGAN은 하나의 통합된 모델을 사용해서 다중 - 도메인과 다양한 데이터셋을 하나의 네트워크에서 학습할 수 있게 해준다. 
     - 따라서 dataset을 domain이라고 하기 보단, dataset는 2가지이고(CelebA, RaFD) domain은 각각 [Blond hair, Gender, Aged, Pale Skin], [Angry, Happy, Fearful]로 표현하는게 맞는 것으로 보인다. 출처: https://medium.com/curg/stargan-%EB%8B%A8%EC%9D%BC-%EB%AA%A8%EB%8D%B8%EB%A1%9C-%EB%8B%A4%EC%A4%91-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%80%ED%99%98%EA%B8%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0-3b0fbdec121d
 
 ## 2. G를 학습하는 과정에서, 만약 D가 G(x, c)를 fake라고 분류하면 c에 대한 학습을 할 수 없는 것 아닌가?
