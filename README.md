@@ -1,6 +1,6 @@
 # ReadingPaper
 
-논문을 읽어보자 
+논문을 읽어보자
 
 ## Generative Model (생성 모델)
 
