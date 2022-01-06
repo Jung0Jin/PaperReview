@@ -1,0 +1,1 @@
+https://www.notion.so/Understanding-Dimensional-Collapse-in-Contrastive-Self-Supervised-Learning-ff994ffface643b2808a3f30a9c306bb
